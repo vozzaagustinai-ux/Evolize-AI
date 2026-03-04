@@ -8,30 +8,25 @@
         content="Evolize AI - Diseñamos e implementamos sistemas de automatización e inteligencia artificial para tu negocio. Eliminá el caos operativo con arquitectura a medida.">
     <title>Evolize AI | Evolución Operativa y Automatización Inteligente</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
     <div class="background-effects">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-        <div class="blob blob-3"></div>
         <div class="grid-overlay"></div>
     </div>
 
     <header>
         <nav class="glass-nav">
-            <div class="logo">
+            <a href="#" class="logo">
                 <i data-lucide="hexagon" class="logo-icon"></i>
-                EVOLIZE <span>AI</span>
-            </div>
+                Evolize <span>AI</span>
+            </a>
             <ul class="nav-links">
-                <li><a href="#filosofia">Filosofía</a></li>
-                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#soluciones">Qué Hacemos</a></li>
                 <li><a href="#casos">Casos de Uso</a></li>
-                <li><a href="#metodo">Proceso</a></li>
                 <li><a href="#faq">FAQ</a></li>
             </ul>
             <a href="#contacto" class="btn-outline">Agendar Diagnóstico</a>
@@ -44,260 +39,305 @@
     <main>
         <!-- Hero Section -->
         <section class="hero" id="inicio">
-            <div class="hero-content">
-                <div class="badge glass-panel">
-                    <span class="badge-dot"></span> Arquitectura a Medida para tu Negocio
-                </div>
-                <h1>Sistemas inteligentes que eliminan el <br><span class="text-gradient">caos operativo</span></h1>
-                <p class="hero-subtitle">Diseñamos e implementamos arquitecturas de automatización e IA adaptadas a tu
-                    negocio. Sin soluciones genéricas. Con impacto medible.</p>
-                <div class="hero-cta">
-                    <a href="#contacto" class="btn-primary">
-                        Diagnosticá tu negocio
-                        <i data-lucide="arrow-right"></i>
-                    </a>
-                    <a href="#servicios" class="btn-secondary">Ver servicios</a>
-                </div>
-            </div>
-
-            <div class="hero-visual glass-panel">
-                <div class="code-window">
-                    <div class="window-header">
-                        <span class="dot red"></span>
-                        <span class="dot yellow"></span>
-                        <span class="dot green"></span>
-                    </div>
-                    <div class="window-body">
-                        <pre><code>// Evolize AI - System Architecture
-const system = new Infrastructure();
-
-system.analyze({
-    friction: "high",
-    manual_tasks: true
-});
-
-system.deploy({
-    automation: "intelligent",
-    integration: "custom_built",
-    agents: "specialized_ai"
-});
-
-// Status: Chaos Eliminated. Growth Unlocked.</code></pre>
-                    </div>
-                </div>
+            <div class="badge-outline">SISTEMAS INTELIGENTES</div>
+            <h1>Eliminá el caos operativo con <br>arquitectura a medida</h1>
+            <p class="hero-subtitle">Diseñamos e implementamos sistemas de automatización e inteligencia artificial. Sin
+                plantillas genéricas, construimos la infraestructura que tu negocio necesita.</p>
+            <div class="hero-cta">
+                <a href="#contacto" class="btn-primary">
+                    Diagnosticá tu negocio
+                </a>
+                <a href="#soluciones" class="btn-secondary">Ver soluciones</a>
             </div>
         </section>
 
-        <!-- Filosofía -->
-        <section id="filosofia" class="section">
+        <!-- Qué Hacemos (Soluciones Grid) -->
+        <section id="soluciones" class="section">
             <div class="section-header">
-                <h2>Entendemos tu negocio antes de <br><span class="text-gradient">crear cualquier solución</span></h2>
-                <p>Nuestra filosofía se basa en tres pilares fundamentales para garantizar el éxito en cada
-                    implementación.</p>
+                <div class="badge-outline">QUÉ HACEMOS</div>
+                <h2>Soluciones que transforman tu operación</h2>
+                <p>Cada servicio está diseñado para resolver un problema concreto de tu negocio, no para venderte
+                    tecnología.</p>
             </div>
 
-            <div class="philosophy-grid">
-                <div class="phil-card glass-panel dark-mode">
-                    <div class="icon-wrapper red-wrapper">
-                        <i data-lucide="search"></i>
-                    </div>
-                    <h3>Diagnóstico Integral</h3>
-                    <p style="color: var(--text-secondary); line-height: 1.6;">Diagnóstico antes que tecnología. Primero
-                        entendemos todo tu flujo de trabajo operativo, luego aplicamos la herramienta adecuada.</p>
-                </div>
-                <div class="phil-card glass-panel highlight-border">
-                    <div class="icon-wrapper green-wrapper">
-                        <i data-lucide="brain-circuit"></i>
-                    </div>
-                    <h3>IA Estratégica</h3>
-                    <p style="color: var(--text-secondary); line-height: 1.6;">Uso de inteligencia artificial solo donde
-                        genera valor real, no por seguir modas. Escalabilidad y precisión en cada proceso integrado.</p>
-                </div>
-                <div class="phil-card glass-panel"
-                    style="grid-column: 1 / -1; display: flex; align-items: center; gap: 2rem;">
-                    <div class="icon-wrapper"
-                        style="background: rgba(0, 240, 255, 0.1); color: var(--accent-primary); margin: 0;">
-                        <i data-lucide="trending-up"></i>
-                    </div>
-                    <div>
-                        <h3 style="margin-bottom: 0.25rem;">Resultados Medibles</h3>
-                        <p style="color: var(--text-secondary); line-height: 1.6; max-width: 800px;">Nuestro enfoque
-                            está 100% centrado en las métricas operativas. Buscamos resultados y retornos de inversión
-                            visibles desde el primer día de implementación.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Servicios -->
-        <section id="servicios" class="section">
-            <div class="section-header">
-                <h2>Nuestra <span class="text-gradient">Arquitectura</span></h2>
-                <p>Construimos lo que tu negocio necesita, ni más ni menos.</p>
-            </div>
-
-            <div class="services-wrapper">
-                <div class="case-card glass-panel">
-                    <div class="case-icon">
-                        <i data-lucide="git-merge"></i>
-                    </div>
-                    <h3 style="margin-bottom: 0.5rem;">Architecture & Automation</h3>
-                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5;">Diseño de la
-                        estructura técnica, integraciones de sistemas y flujos de trabajo automatizados para eliminar la
-                        fricción humana.</p>
+            <div class="solutions-grid">
+                <!-- Card 1 -->
+                <div class="solution-card card-panel">
+                    <div class="solution-icon"><i data-lucide="message-square"></i></div>
+                    <h3>Atención y ventas que no duermen</h3>
+                    <p class="solution-desc">Tu negocio responde, califica y gestiona leads las 24 horas. Sin depender
+                        de personas, sin perder oportunidades.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2"></i> Respuesta instantánea en WhatsApp</li>
+                        <li><i data-lucide="check-circle-2"></i> Calificación automática de leads</li>
+                        <li><i data-lucide="check-circle-2"></i> Gestión de turnos y seguimiento</li>
+                        <li><i data-lucide="check-circle-2"></i> Integración con tu CRM actual</li>
+                    </ul>
                 </div>
 
-                <div class="case-card glass-panel">
-                    <div class="case-icon">
-                        <i data-lucide="bot"></i>
-                    </div>
-                    <h3 style="margin-bottom: 0.5rem;">Custom AI Agents</h3>
-                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5;">Desarrollo de agentes
-                        de IA especializados y entrenados con la data de tu propia empresa para tareas críticas.</p>
+                <!-- Card 2 -->
+                <div class="solution-card card-panel">
+                    <div class="solution-icon"><i data-lucide="settings"></i></div>
+                    <h3>Operaciones sin tareas manuales</h3>
+                    <p class="solution-desc">Todo lo que tu equipo hace de forma repetitiva —cargar datos, seguir
+                        procesos, enviar reportes— lo automatizamos con trazabilidad completa.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2"></i> Workflows automatizados end-to-end</li>
+                        <li><i data-lucide="check-circle-2"></i> Procesamiento inteligente de datos</li>
+                        <li><i data-lucide="check-circle-2"></i> Alertas y reportes automáticos</li>
+                        <li><i data-lucide="check-circle-2"></i> Trazabilidad de cada operación</li>
+                    </ul>
                 </div>
 
-                <div class="case-card glass-panel">
-                    <div class="case-icon">
-                        <i data-lucide="line-chart"></i>
-                    </div>
-                    <h3 style="margin-bottom: 0.5rem;">Data & Dashboards</h3>
-                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5;">Centralización de
-                        información en tiempo real para una toma de decisiones clara, reduciendo el riesgo y mejorando
-                        los márgenes.</p>
+                <!-- Card 3 -->
+                <div class="solution-card card-panel">
+                    <div class="solution-icon"><i data-lucide="git-branch"></i></div>
+                    <h3>Cada cliente visible y medible</h3>
+                    <p class="solution-desc">Pipeline comercial estructurado: sabés exactamente en qué etapa está cada
+                        lead, cada conversación y cada oportunidad.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2"></i> Pipeline visual y ordenado</li>
+                        <li><i data-lucide="check-circle-2"></i> Historial completo de interacciones</li>
+                        <li><i data-lucide="check-circle-2"></i> Base de datos centralizada</li>
+                        <li><i data-lucide="check-circle-2"></i> Seguimiento y retención automatizados</li>
+                    </ul>
                 </div>
 
-                <div class="case-card glass-panel">
-                    <div class="case-icon">
-                        <i data-lucide="refresh-cw"></i>
-                    </div>
-                    <h3 style="margin-bottom: 0.5rem;">Continuous Support</h3>
-                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5;">Acompañamiento
-                        constante post-implementación e iteración de los sistemas en base al feedback real y nuevas
-                        necesidades.</p>
+                <!-- Card 4 -->
+                <div class="solution-card card-panel">
+                    <div class="solution-icon"><i data-lucide="bar-chart-2"></i></div>
+                    <h3>Decisiones con datos, no intuición</h3>
+                    <p class="solution-desc">Dashboards en tiempo real que te muestran qué funciona, dónde hay fricción
+                        y qué acción tomar. Sin planillas manuales.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2"></i> Métricas operativas en tiempo real</li>
+                        <li><i data-lucide="check-circle-2"></i> Alertas proactivas de anomalías</li>
+                        <li><i data-lucide="check-circle-2"></i> Análisis de tendencias automático</li>
+                        <li><i data-lucide="check-circle-2"></i> Reportes ejecutivos periódicos</li>
+                    </ul>
                 </div>
+
+                <!-- Card 5 -->
+                <div class="solution-card card-panel">
+                    <div class="solution-icon"><i data-lucide="graduation-cap"></i></div>
+                    <h3>Consultoría y capacitación</h3>
+                    <p class="solution-desc">Te acompañamos en la adopción. Capacitamos a tu equipo para que entienda,
+                        use y potencie cada sistema implementado.</p>
+                    <ul class="solution-features">
+                        <li><i data-lucide="check-circle-2"></i> Diagnóstico estratégico inicial</li>
+                        <li><i data-lucide="check-circle-2"></i> Plan de adopción por equipo</li>
+                        <li><i data-lucide="check-circle-2"></i> Capacitación práctica y documentada</li>
+                        <li><i data-lucide="check-circle-2"></i> Soporte continuo post-implementación</li>
+                    </ul>
+                </div>
+
+                <!-- Card 6 (CTA) -->
+                <a href="#contacto" class="solution-card card-panel cta-card">
+                    <div class="icon-circle"><i data-lucide="arrow-right"></i></div>
+                    <h3>¿No sabés cuál necesitás?</h3>
+                    <p class="solution-desc" style="margin-bottom: 0;">Agendá un diagnóstico gratuito y te lo mostramos.
+                    </p>
+                </a>
             </div>
         </section>
 
         <!-- Casos de Uso (Horizontal Scroll / Carousel) -->
-        <section id="casos" class="section full-width"
-            style="background: rgba(13, 14, 21, 0.4); border-top: 1px solid var(--glass-border); padding: 5rem 0;">
-            <div class="section-container">
-                <div class="section-header">
-                    <h2>Casos de Uso <span class="text-gradient">Aplicados</span></h2>
-                    <p>Sistemas que ya están operando e impactando en la vida real.</p>
-                </div>
+        <section id="casos" class="section" style="padding-top: 8rem;">
+            <div class="section-header">
+                <div class="badge-outline">CASOS DE USO</div>
+                <h2>Transformamos operaciones reales</h2>
+                <p>Cada industria tiene sus desafíos. Nosotros diseñamos la arquitectura exacta para resolverlos.</p>
             </div>
 
             <div class="carousel-container">
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev-btn" aria-label="Anterior slide"><i
+                            data-lucide="chevron-left"></i></button>
+                    <button class="carousel-btn next-btn" aria-label="Siguiente slide"><i
+                            data-lucide="chevron-right"></i></button>
+                </div>
+
                 <div class="use-cases-carousel">
                     <!-- Slide 1 -->
-                    <div class="use-case-slide glass-panel highlight-border">
-                        <div class="case-icon">
-                            <i data-lucide="badge-dollar-sign"></i>
+                    <div class="use-case-slide card-panel">
+                        <div class="case-header">
+                            <i data-lucide="stethoscope"></i>
+                            <h3>Salud / Clínicas</h3>
                         </div>
-                        <h3>Ventas High-Ticket</h3>
-                        <span class="case-category">B2B & Servicios</span>
-                        <div class="case-details">
-                            <p class="case-context">Reemplazamos el seguimiento manual de leads de alto valor.</p>
-                            <div class="detail-impact" style="margin-top: auto;">
-                                <strong>El Sistema:</strong> Captación en WhatsApp, calificación inteligente por IA y
-                                envío estructurado directo al CRM del equipo comercial, todo automatizado 24/7 sin
-                                pérdidas.
-                            </div>
+                        <div class="case-block">
+                            <p class="case-label red">PROBLEMA</p>
+                            <p>Leads que se enfrían, turnos cancelados sin aviso, WhatsApp caótico sin trazabilidad.</p>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label green">SOLUCIÓN</p>
+                            <p>AI Receptionist que atiende, califica y agenda. Pipeline de pacientes con seguimiento
+                                automático.</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-tags">
+                            <span class="tag">0 no-shows</span>
+                            <span class="tag">Pipeline estructurado</span>
+                            <span class="tag">ROI en semanas</span>
                         </div>
                     </div>
 
                     <!-- Slide 2 -->
-                    <div class="use-case-slide glass-panel highlight-border">
-                        <div class="case-icon">
-                            <i data-lucide="layout-dashboard"></i>
+                    <div class="use-case-slide card-panel">
+                        <div class="case-header">
+                            <i data-lucide="store"></i>
+                            <h3>Retail / Franquicias</h3>
                         </div>
-                        <h3>Gestión de Agencias</h3>
-                        <span class="case-category">Empresas de Servicios</span>
-                        <div class="case-details">
-                            <p class="case-context">Eliminamos el micro-management y la fragmentación de archivos.</p>
-                            <div class="detail-impact" style="margin-top: auto;">
-                                <strong>El Sistema:</strong> Centralización de proyectos con tableros automatizados.
-                                Cuando el cliente aprueba, los recursos se mueven y facturan automáticamente, dando
-                                control total de márgenes.
-                            </div>
+                        <div class="case-block">
+                            <p class="case-label red">PROBLEMA</p>
+                            <p>3 horas por día cargando stock a mano, errores humanos, pérdidas invisibles por desfase.
+                            </p>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label green">SOLUCIÓN</p>
+                            <p>Sistema de stock automatizado que integra ventas, compras y consumo. Alertas en tiempo
+                                real.</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-tags">
+                            <span class="tag">Menos pérdidas</span>
+                            <span class="tag">Escalable a sucursales</span>
+                            <span class="tag">Control total</span>
                         </div>
                     </div>
 
                     <!-- Slide 3 -->
-                    <div class="use-case-slide glass-panel highlight-border">
-                        <div class="case-icon">
-                            <i data-lucide="headset"></i>
+                    <div class="use-case-slide card-panel">
+                        <div class="case-header">
+                            <i data-lucide="shopping-bag"></i>
+                            <h3>Ecommerce</h3>
                         </div>
-                        <h3>Soporte al Cliente</h3>
-                        <span class="case-category">Ecommerce / Retail</span>
-                        <div class="case-details">
-                            <p class="case-context">Saturación de mensajes repetitivos resolubles en el manual.</p>
-                            <div class="detail-impact" style="margin-top: auto;">
-                                <strong>El Sistema:</strong> Implementación de agentes de IA con memoria conversacional
-                                e ingestión del catálogo completo. Atención inmediata las 24hs y escalado a humano solo
-                                cuando es necesario.
-                            </div>
+                        <div class="case-block">
+                            <p class="case-label red">PROBLEMA</p>
+                            <p>Leads fríos sin seguimiento, conversaciones desordenadas, sin CRM ni pipeline.</p>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label green">SOLUCIÓN</p>
+                            <p>Agente vendedor inteligente con CRM integrado, pipeline comercial y datos para
+                                remarketing.</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-tags">
+                            <span class="tag">Mayor conversión</span>
+                            <span class="tag">Ventas escalables</span>
+                            <span class="tag">Datos centralizados</span>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Modelo de Trabajo -->
-        <section id="metodo" class="section">
-            <div class="section-header">
-                <h2>El Camino de la <span class="text-gradient">Evolución</span></h2>
-                <p>Nuestra metodología estructurada de 6 fases.</p>
-            </div>
+                    <!-- Slide 4 -->
+                    <div class="use-case-slide card-panel">
+                        <div class="case-header">
+                            <i data-lucide="briefcase"></i>
+                            <h3>Servicios profesionales</h3>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label red">PROBLEMA</p>
+                            <p>Procesos manuales, tiempo del dueño atrapado en la operación, sin visibilidad real.</p>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label green">SOLUCIÓN</p>
+                            <p>Flujos automatizados, operación estandarizada y dashboards con métricas operativas.</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-tags">
+                            <span class="tag">Foco en crecimiento</span>
+                            <span class="tag">Operación eficiente</span>
+                            <span class="tag">Decisiones con datos</span>
+                        </div>
+                    </div>
 
-            <div class="timeline-vertical">
-                <div class="v-timeline-item">
-                    <div class="v-timeline-dot">1</div>
-                    <div class="v-timeline-content glass-panel">
-                        <h3>Audit & Discovery</h3>
-                        <p>Diagnóstico profundo de la situación actual. Mapeo de procesos y detección de los principales
-                            cuellos de botella.</p>
+                    <!-- Slide 5 -->
+                    <div class="use-case-slide card-panel">
+                        <div class="case-header">
+                            <i data-lucide="utensils"></i>
+                            <h3>Gastronomía</h3>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label red">PROBLEMA</p>
+                            <p>Pedidos perdidos, stock sin control real, reservas mal gestionadas y sin seguimiento.</p>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label green">SOLUCIÓN</p>
+                            <p>Sistema integrado de pedidos, stock automático por receta y reservas con confirmación
+                                inteligente.</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-tags">
+                            <span class="tag">Menos desperdicio</span>
+                            <span class="tag">Reservas sin fricción</span>
+                            <span class="tag">Fidelización activa</span>
+                        </div>
                     </div>
-                </div>
-                <div class="v-timeline-item">
-                    <div class="v-timeline-dot">2</div>
-                    <div class="v-timeline-content glass-panel">
-                        <h3>Architecture Design</h3>
-                        <p>Definición de la infraestructura técnica y diseño de flujos antes de escribir una sola línea
-                            de código.</p>
+
+                    <!-- Slide 6 -->
+                    <div class="use-case-slide card-panel">
+                        <div class="case-header">
+                            <i data-lucide="graduation-cap"></i>
+                            <h3>Educación / Academias</h3>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label red">PROBLEMA</p>
+                            <p>Inscripciones manuales, seguimiento de alumnos inexistente, comunicación fragmentada.</p>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label green">SOLUCIÓN</p>
+                            <p>Pipeline de inscripción automatizado, seguimiento académico y comunicación centralizada.
+                            </p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-tags">
+                            <span class="tag">Más inscriptos</span>
+                            <span class="tag">Menos deserción</span>
+                            <span class="tag">Gestión clara</span>
+                        </div>
                     </div>
-                </div>
-                <div class="v-timeline-item">
-                    <div class="v-timeline-dot">3</div>
-                    <div class="v-timeline-content glass-panel">
-                        <h3>Desarrollo a Medida</h3>
-                        <p>Construcción de los sistemas Core, integraciones por API y entrenamiento de los agentes de IA
-                            necesarios.</p>
+
+                    <!-- Slide 7 -->
+                    <div class="use-case-slide card-panel">
+                        <div class="case-header">
+                            <i data-lucide="home"></i>
+                            <h3>Inmobiliarias</h3>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label red">PROBLEMA</p>
+                            <p>Consultas que se pierden, propiedades sin seguimiento, datos dispersos en planillas.</p>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label green">SOLUCIÓN</p>
+                            <p>CRM inmobiliario con seguimiento automático, matching inteligente y pipeline visual.</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-tags">
+                            <span class="tag">Leads calificados</span>
+                            <span class="tag">Cierre más rápido</span>
+                            <span class="tag">Cartera organizada</span>
+                        </div>
                     </div>
-                </div>
-                <div class="v-timeline-item">
-                    <div class="v-timeline-dot">4</div>
-                    <div class="v-timeline-content glass-panel">
-                        <h3>Integración Total</h3>
-                        <p>Conexión del nuevo sistema con el software legated o las herramientas que tu equipo ya
-                            utiliza (ERP, CRM, Slack).</p>
-                    </div>
-                </div>
-                <div class="v-timeline-item">
-                    <div class="v-timeline-dot">5</div>
-                    <div class="v-timeline-content glass-panel">
-                        <h3>Implementación y Capacitación</h3>
-                        <p>Despliegue escalonado en producción acompañado de capacitación profunda a los usuarios clave.
-                        </p>
-                    </div>
-                </div>
-                <div class="v-timeline-item">
-                    <div class="v-timeline-dot">6</div>
-                    <div class="v-timeline-content glass-panel">
-                        <h3>Optimización Continua</h3>
-                        <p>Análisis de métricas post-lanzamiento, ajustes de performance iterativos y agregados
-                            estratégicos.</p>
+
+                    <!-- Slide 8 -->
+                    <div class="use-case-slide card-panel">
+                        <div class="case-header">
+                            <i data-lucide="truck"></i>
+                            <h3>Logística / Distribución</h3>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label red">PROBLEMA</p>
+                            <p>Rutas sin optimizar, entregas sin trazabilidad, reclamos por falta de información.</p>
+                        </div>
+                        <div class="case-block">
+                            <p class="case-label green">SOLUCIÓN</p>
+                            <p>Automatización de despachos, seguimiento en tiempo real y notificaciones automáticas.</p>
+                        </div>
+                        <div class="case-divider"></div>
+                        <div class="case-tags">
+                            <span class="tag">Menos reclamos</span>
+                            <span class="tag">Eficiencia operativa</span>
+                            <span class="tag">Visibilidad total</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -306,114 +346,85 @@ system.deploy({
         <!-- FAQ Section -->
         <section id="faq" class="section">
             <div class="section-header">
-                <h2>Preguntas <span class="text-gradient">Frecuentes</span></h2>
-                <p>Respuestas claras sobre nuestra forma de trabajar.</p>
+                <h2>Preguntas Frecuentes</h2>
             </div>
 
             <div class="faq-container">
-                <div class="faq-item glass-panel">
-                    <button class="faq-question">
-                        <span>¿Para qué tipo de negocios trabajan?</span>
-                        <i data-lucide="chevron-down" class="faq-icon"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Trabajamos principalmente con Clínicas Médicas, Franquicias, Ecommerce, y Empresas de
-                            Servicios (Agencias, Consultoras). Nuestro foco son negocios operando que buscan escalar o
-                            sufren por cuellos de botella y procesos manuales repetitivos.</p>
+                <div class="faq-item">
+                    <div class="card-panel">
+                        <button class="faq-question">
+                            <span>¿Para qué tipo de negocios trabajan?</span>
+                            <i data-lucide="chevron-down" class="faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Trabajamos principalmente con Clínicas Médicas, Franquicias, Ecommerce, y Empresas de
+                                Servicios (Agencias, Consultoras). Nuestro foco son negocios operando que buscan escalar
+                                o sufren por cuellos de botella y procesos manuales repetitivos.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="faq-item glass-panel">
-                    <button class="faq-question">
-                        <span>¿Qué nivel de personalización ofrecen?</span>
-                        <i data-lucide="chevron-down" class="faq-icon"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Ofrecemos personalización total y genuina (100%). No vendemos plantillas de software ni
-                            "sistemas empacados" (SaaS). Actuamos como Arquitectos que construyen piezas únicas basadas
-                            en los requerimientos exactos de tu modelo de negocio.</p>
+                <div class="faq-item">
+                    <div class="card-panel">
+                        <button class="faq-question">
+                            <span>¿Qué nivel de personalización ofrecen?</span>
+                            <i data-lucide="chevron-down" class="faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ofrecemos personalización total y genuina (100%). No vendemos plantillas de software ni
+                                "sistemas empacados" (SaaS). Actuamos como Arquitectos que construyen piezas únicas
+                                basadas en los requerimientos exactos de tu modelo de negocio.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="faq-item glass-panel">
-                    <button class="faq-question">
-                        <span>¿Necesito tener equipo técnico interno?</span>
-                        <i data-lucide="chevron-down" class="faq-icon"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Para nada. Evolize AI asume la responsabilidad técnica por completo. Desde la concepción de
-                            la arquitectura hasta el mantenimiento en servidores. Somos tu partner tecnológico de
-                            confianza.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item glass-panel">
-                    <button class="faq-question">
-                        <span>¿Cuánto tiempo lleva ver resultados?</span>
-                        <i data-lucide="chevron-down" class="faq-icon"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Al tener un enfoque modular, solemos desplegar "Quick Wins" (automatizaciones de impacto
-                            rápido) a partir de la semana 2 o 3, permitiendo percibir ahorros de tiempo de inmediato
-                            mientras seguimos construyendo el ecosistema pesado.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item glass-panel">
-                    <button class="faq-question">
-                        <span>¿Qué pasa después de la implementación?</span>
-                        <i data-lucide="chevron-down" class="faq-icon"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Proveemos un servicio de "Continuous Support". Constantemente monitoreamos la
-                            infraestructura, solucionamos excepciones de borde en las lógicas de automatización y
-                            agregamos extensiones para escalar a medida que tu empresa crece.</p>
+                <div class="faq-item">
+                    <div class="card-panel">
+                        <button class="faq-question">
+                            <span>¿Necesito tener equipo técnico interno?</span>
+                            <i data-lucide="chevron-down" class="faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Para nada. Evolize AI asume la responsabilidad técnica por completo. Desde la concepción
+                                de la arquitectura hasta el mantenimiento en servidores. Somos tu partner tecnológico de
+                                confianza.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Diferenciales / CTA Section -->
-        <section id="contacto" class="cta-section glass-panel highlight-border" style="margin-top: 6rem;">
+        <!-- CTA Section -->
+        <section id="contacto" class="cta-section">
             <h2>Estructura antes que improvisación.</h2>
             <p>Únete a nuestro grupo selecto de clientes estratégicos y comencemos a rediseñar cómo funciona tu negocio.
             </p>
-            <div class="values-row">
-                <span>Personalización Total</span>
-                <span class="dot-separator">•</span>
-                <span>Mentalidad de Arquitectos</span>
-                <span class="dot-separator">•</span>
-                <span>Foco en Métricas</span>
-            </div>
             <button class="btn-primary" id="final-cta">
-                Solicitar Diagnóstico Estructural
-                <i data-lucide="zap"></i>
+                Agendar Diagnóstico Gratuito
             </button>
         </section>
     </main>
 
-    <footer class="glass-panel">
+    <footer>
         <div class="footer-content">
             <div class="footer-brand">
-                <div class="logo">
+                <a href="#" class="logo">
                     <i data-lucide="hexagon" class="logo-icon"></i>
-                    EVOLIZE <span>AI</span>
-                </div>
+                    Evolize <span>AI</span>
+                </a>
                 <p>Diseñamos e implementamos arquitecturas de automatización e inteligencia artificial. Sin soluciones
                     genéricas.</p>
             </div>
             <div class="footer-links">
                 <ul>
-                    <li><strong>Compañía</strong></li>
-                    <li><a href="#filosofia">Nuestra Filosofía</a></li>
-                    <li><a href="#metodo">Metodología</a></li>
-                    <li><a href="#faq">Preguntas Comunes (FAQ)</a></li>
+                    <li><strong>Áreas</strong></li>
+                    <li><a href="#soluciones">Qué Hacemos</a></li>
+                    <li><a href="#casos">Casos de Uso</a></li>
                 </ul>
                 <ul>
-                    <li><strong>Arquitectura</strong></li>
-                    <li><a href="#servicios">Sistemas Core</a></li>
-                    <li><a href="#casos">Casos de Uso</a></li>
-                    <li><a href="#contacto">Evolucionar</a></li>
+                    <li><strong>Compañía</strong></li>
+                    <li><a href="#faq">Preguntas Comunes (FAQ)</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
         </div>
